@@ -11,7 +11,7 @@ rule macs2_call_peaks_narrow:
 	log: 
 		"logs/macs2/callpeak_narrow_{sample}.log"
 	conda:
-		"../envs/macs2_envs.yaml"
+		"../envs/macs2_env.yaml"
 	params: 
 		config["params"]["macs2_call_peaks_narrow"],
 		macs2_read_format
@@ -31,7 +31,7 @@ rule macs2_call_peaks_broad:
 	log:
 		"logs/macs2/callpeak_broad_{sample}.log"
 	conda:
-		"../envs/macs2_envs.yaml"
+		"../envs/macs2_env.yaml"
 	params: 
 		config["params"]["macs2_call_peaks_broad"],
 		macs2_read_format
@@ -51,7 +51,7 @@ rule macs2_call_peaks_narrow_merged:
 	log: 
 		"logs/macs2/callpeak_narrow_{sample_group}.log"
 	conda:
-		"../envs/macs2_envs.yaml"
+		"../envs/macs2_env.yaml"
 	params: 
 		config["params"]["macs2_call_peaks_narrow"],
 		macs2_read_format_merged
@@ -71,7 +71,7 @@ rule macs2_call_peaks_broad_merged:
 	log:
 		"logs/macs2/callpeak_broad_{sample_group}.log"
 	conda:
-		"../envs/macs2_envs.yaml"
+		"../envs/macs2_env.yaml"
 	params: 
 		config["params"]["macs2_call_peaks_broad"],
 		macs2_read_format_merged
