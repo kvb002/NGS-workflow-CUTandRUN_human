@@ -42,4 +42,5 @@ params:
   bigwigs_merged: "--binSize 10"
   filter_peaks_by_replicates:
     min_overlap: 10
-    replicate_threshold: 1
+    replicate_threshold: 2
+    
