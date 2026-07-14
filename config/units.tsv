@@ -1,6 +1,4 @@
 sample_name	unit_name	fq1	fq2	sra	read_format	call_peaks	input	peak_type	sample_group
-H3K27me3	H3K27me3	/staging/b/biesbrock/HA_dCas9/M011284/dCas9_CR/H3K27me3-HA-BioR1_S496_L002_R1_001.fastq.gz	/staging/b/biesbrock/HA_dCas9/M011284/dCas9_CR/H3K27me3-HA-BioR1_S496_L002_R2_001.fastq.gz		PE	TRUE	IgG	broad	H3K27me3
-IgG	IgG	/staging/b/biesbrock/HA_dCas9/M011284/dCas9_CR/IgG-HA-BioR1_S494_L002_R1_001.fastq.gz	/staging/b/biesbrock/HA_dCas9/M011284/dCas9_CR/IgG-HA-BioR1_S494_L002_R2_001.fastq.gz		PE	FALSE			IgG
 H3K27me3_BioR1	H3K27me3_BioR1	/staging/b/biesbrock/HA_dCas9/M011284/dCas9_CR/H3K27me3-HA-BioR1_S496_L002_R1_001.fastq.gz	/staging/b/biesbrock/HA_dCas9/M011284/dCas9_CR/H3K27me3-HA-BioR1_S496_L002_R2_001.fastq.gz		PE	TRUE	IgG_BioR1	broad	H3K27me3
 H3K27me3_BioR2	H3K27me3_BioR2	/staging/b/biesbrock/HA_dCas9/M011284/dCas9_CR/H3K27me3-HA-BioR2_S501_L002_R1_001.fastq.gz	/staging/b/biesbrock/HA_dCas9/M011284/dCas9_CR/H3K27me3-HA-BioR2_S501_L002_R2_001.fastq.gz		PE	TRUE	IgG_BioR2	broad	H3K27me3
 H3K27me3_BioR3	H3K27me3_BioR3	/staging/b/biesbrock/HA_dCas9/M011284/dCas9_CR/H3K27me3-HA-BioR3_S506_L002_R1_001.fastq.gz	/staging/b/biesbrock/HA_dCas9/M011284/dCas9_CR/H3K27me3-HA-BioR3_S506_L002_R2_001.fastq.gz		PE	TRUE	IgG_BioR3	broad	H3K27me3
