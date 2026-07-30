@@ -38,8 +38,8 @@ params:
   bigwigs_merged: "--binSize 10"
   macs2_call_peaks_narrow: "-f BAMPE --keep-dup all -g hs --call-summits"
   macs2_call_peaks_broad: "-f BAMPE --keep-dup all -g hs"
-  bigwigs_ind: "--binSize 10"
-  bigwigs_merged: "--binSize 10"
+  bigwigs_ind: "--binSize 50"
+  bigwigs_merged: "--binSize 50"
   filter_peaks_by_replicates:
     min_overlap: 10
     replicate_threshold: 2
