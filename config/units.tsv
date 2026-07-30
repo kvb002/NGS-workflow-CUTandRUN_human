@@ -1,2 +1,3 @@
 sample_name	unit_name	fq1	fq2	sra	read_format	call_peaks	input	peak_type	sample_group
 AC_HA_BioR3	AC_HA_BioR3	/staging/b/biesbrock/HA_dCas9/M011284/dCas9_CR/AC-HA-BioR3_S502_L002_R1_001.fastq.gz	/staging/b/biesbrock/HA_dCas9/M011284/dCas9_CR/AC-HA-BioR3_S502_L002_R2_001.fastq.gz		PE	TRUE	IgG_BioR3	narrow	AC-HA
+IgG_HA_BioR3	IgG_HA_BioR3	/staging/b/biesbrock/HA_dCas9/M011284/dCas9_CR/IgG-HA-BioR1_S494_L002_R1_001.fastq.gz	/staging/b/biesbrock/HA_dCas9/M011284/dCas9_CR/IgG-HA-BioR1_S494_L002_R2_001.fastq.gz		PE	FALSE			IgG
